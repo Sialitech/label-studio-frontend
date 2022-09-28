@@ -116,7 +116,7 @@ export const Controls = controlsInjector(observer(({ store, history, annotation 
   } else if (annotation.skipped) {
     buttons.push(
       <Elem name="skipped-info" key="skipped">
-        <IconBan color="#d00" /> Was skipped
+        <IconBan color="#fe3c3a" /> Was skipped
       </Elem>);
     buttons.push(
       <ButtonTooltip key="cancel-skip" title="Cancel skip: []">
